@@ -9,3 +9,8 @@ nama = Console.ReadLine();
 
 Console.Write("Input Nilai: ");
 nilai = int.Parse(Console.ReadLine());
+
+if (nilai >= 75)
+    Console.WriteLine("Selamat, kamu uda lulus.");
+else
+    Console.WriteLine("Maaf, kamu belom belom lulus.");
